@@ -7,7 +7,7 @@ from statsmodels.graphics.tsaplots import plot_acf,plot_pacf
 import statsmodels.api as sm
 
 os.listdir()
-######## LOADING ZABBIX DATA ##############
+######### LOADING ZABBIX DATA ##############
 
 trends = pd.read_csv('ZABBIX_TRENDS.csv')
 trends_orig = trends.copy()
